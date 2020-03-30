@@ -1,0 +1,197 @@
+body {
+  padding: 0;
+  margin: 0;
+}
+
+.avatar {
+  width: 200px;
+  height: 200px;
+  border-radius: 75%;
+  justify-self: center;
+  margin-top: 25px;
+}
+
+.font-family-headers {
+  font-family: europa, sans-serif;
+  text-align: center;
+  font-size: 32px;
+}
+
+p {
+  font-family: europa, sans-serif;
+}
+
+h1 {
+  font-family: europa, sans-serif;
+}
+
+h2 {
+  font-family: europa, sans-serif;
+}
+
+#what-I-Do {
+  font-size: 24px;
+  text-align: center;
+}
+
+#intro-div {
+  display: grid;
+  grid-template-rows: 35px 50px 50px 225px 50px;
+  grid-template-columns: 1fr;
+}
+
+#logo-corner {
+  height: 50px;
+  width: 75px;
+}
+
+.main-div {
+  display: grid;
+  grid-template-rows: 75px 200px;
+  background-color: #641dc0;
+  width: 100%;
+  margin-top: 25px;
+  height: 400px;
+}
+
+.main-div-p {
+  color: white;
+  text-align: center;
+  margin-left: 10px;
+  margin-right: 10px;
+  font-size: 22px;
+}
+
+#nice-to-meet {
+  color: white;
+  padding-top: 10px;
+}
+
+.download-resume {
+  color: white;
+  background-color: #641dc0;
+  font-family: europa, sans-serif;
+  text-align: center;
+  font-size: 24px;
+  font-weight: 800;
+  margin-top: 25px;
+}
+
+#column-container {
+  display: grid;
+  grid-template-columns: 1fr;
+  align-items: center;
+  justify-items: center;
+}
+
+.column {
+  display: grid;
+  grid-template-columns: 1fr;
+  align-items: center;
+  justify-items: center;
+  margin-top: 30px;
+  border-radius: 10px;
+  background-color: white;
+  position: relative;
+  width: 90%;
+  height: 100%;
+  box-shadow: 0 0 25px rgba(40, 47, 60, 0.5);
+}
+
+.skills {
+  font-size: 24px;
+}
+
+#skills-header {
+  font-size: 32px;
+}
+
+.projects-div {
+  margin-top: 25px;
+  padding-bottom: 20px;
+  height: 100%;
+  width: 100%;
+  background-color: #641dc0;
+}
+
+.projects-div-alt {
+  margin-top: 25px;
+  padding-bottom: 20px;
+  height: 100%;
+  width: 100%;
+  background-color: white;
+}
+
+.projects-position {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  justify-items: center;
+}
+
+.projects-position-alt {
+  display: grid;
+  grid-template-columns: 1fr;
+  align-items: center;
+  justify-items: center;
+}
+
+.project-header {
+  color: white;
+  text-align: center;
+}
+
+.project-header-alt {
+  color: #641dc0;
+  text-align: center;
+}
+
+.umc-imgs {
+  height: 400px;
+  width: 215px;
+}
+
+.ci-imgs {
+  border-radius: 2%;
+  height: 500px;
+  width: 350px;
+}
+
+#ci-img-2 {
+  border-radius: 2%;
+  width: 80%;
+  height: 500px;
+}
+
+.project-text {
+  color: white;
+  font-size: 24px;
+}
+
+.project-text-alt {
+  color: #641dc0;
+  font-size: 24px;
+  text-align: center;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+#my-work {
+  margin-top: 75px;
+}
+
+#about-me-container {
+  background-color: #641dc0;
+  height: 100%;
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr;
+  align-items: center;
+  justify-items: center;
+}
+
+#about-me-text-margins {
+  margin-right: 20px;
+  margin-left: 20px;
+  text-align: center;
+}
