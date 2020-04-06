@@ -110,6 +110,7 @@ h2 {
 }
 
 #skills-header {
+  text-align: center;
   font-size: 32px;
 }
 
@@ -154,8 +155,8 @@ h2 {
 }
 
 .umc-imgs {
-  height: 400px;
-  width: 215px;
+  height: 350px;
+  width: 175px;
 }
 
 .ci-imgs {
@@ -172,7 +173,9 @@ h2 {
 
 .project-text {
   color: white;
-  font-size: 24px;
+  font-size: 20px;
+  margin-left: 10px;
+  margin-right: 10px;
 }
 
 .about-me-text {
@@ -448,8 +451,8 @@ form label {
   .about-me-text {
     color: white;
     font-size: 40px;
-    margin-right: 20px;
-    margin-left: 20px;
+    margin-right: 60px;
+    margin-left: 60px;
     text-align: center;
   }
 
